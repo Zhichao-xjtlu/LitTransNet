@@ -1,0 +1,7 @@
+{"entity_class_id": "betalain", "entity_id": "entity_224463154dcc87f6", "evidence_ids": ["evidence_64849233bb4d111c", "evidence_e2f8f85ead3fd652"], "membership_id": "membership_11b5afd343c8c928", "role": "subclass"}
+{"entity_class_id": "decarboxylated betanins", "entity_id": "entity_08e54ed00581eb75", "evidence_ids": ["evidence_b2f9cb300adc3bd6"], "membership_id": "membership_18e69d77f1f68a17", "role": "member"}
+{"entity_class_id": "betalain", "entity_id": "entity_650d2a44905cfe65", "evidence_ids": ["evidence_64849233bb4d111c", "evidence_e2f8f85ead3fd652"], "membership_id": "membership_1cbb4d2bf00971f1", "role": "subclass"}
+{"entity_class_id": "betalain", "entity_id": "entity_2a2970b6a6e7d326", "evidence_ids": ["evidence_ae9c47bc6a6926c8", "evidence_f2d3d169a3c2e4bd"], "membership_id": "membership_4c790f7725378b75", "role": "subclass"}
+{"entity_class_id": "decarboxylated betanins", "entity_id": "entity_c9f12ee56ae109af", "evidence_ids": ["evidence_68ff43634caa760c"], "membership_id": "membership_d9953ca455196b87", "role": "member"}
+{"entity_class_id": "betalain", "entity_id": "entity_a98cabf005c3148e", "evidence_ids": ["evidence_ae9c47bc6a6926c8", "evidence_f2d3d169a3c2e4bd"], "membership_id": "membership_deba7e9af835f654", "role": "subclass"}
+{"entity_class_id": "betalains", "entity_id": "entity_12822fcd1f86c3ce", "evidence_ids": ["evidence_57c4a65d9cc590d9"], "membership_id": "membership_e685de6e4589f2a6", "role": "member"}

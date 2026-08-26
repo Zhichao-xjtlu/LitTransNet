@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "operators": {
+    "identity": {
+      "description": "No elemental change beyond combining declared reactants",
+      "formula_delta": {}
+    },
+    "condensation_h2o_loss": {
+      "description": "Combination of declared reactants with net loss of water",
+      "formula_delta": {
+        "H": -2,
+        "O": -1
+      }
+    },
+    "decarboxylation_co2_loss": {
+      "description": "Net loss of carbon dioxide",
+      "formula_delta": {
+        "C": -1,
+        "O": -2
+      }
+    },
+    "dehydrogenation_h2_loss": {
+      "description": "Net loss of molecular hydrogen",
+      "formula_delta": {
+        "H": -2
+      }
+    },
+    "hydrogenation_h2_gain": {
+      "description": "Net gain of molecular hydrogen",
+      "formula_delta": {
+        "H": 2
+      }
+    }
+  }
+}

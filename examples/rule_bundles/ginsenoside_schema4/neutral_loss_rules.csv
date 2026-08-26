@@ -1,0 +1,9 @@
+﻿rule_id,compound_class,subclass,loss_name,loss_mass,ion_mode,interpretation,required_context,evidence_ids,review_status,review_note
+loss_63fc1702b69c78,ginsenoside,,,42,,,,16,candidate,Acetyl ginsenosides exhibit a neutral loss of 42 Da.
+loss_88096a66fc9c21,ginsenoside,,,86,,,,claim_6,candidate,Malonyl ginsenosides exhibit a neutral loss of 86 Da.
+loss_51b7b40c211a32,ginsenoside,,neutral loss 162,162,,Loss of glucose residue (162 Da).,concept_evidence,chunk_3c194d876594ee047cbf,candidate,Loss of glucose residue (162 Da).
+loss_d9cb2e543e67c7,ginsenoside,,neutral loss 146,146,,Loss of rhamnose residue (146 Da).,concept_evidence,chunk_3c194d876594ee047cbf,candidate,Loss of rhamnose residue (146 Da).
+loss_820062f83ca6ff,ginsenoside,,neutral loss 132,132,,Loss of arabinose or xylose residue (132 Da).,concept_evidence,chunk_3c194d876594ee047cbf,candidate,Loss of arabinose or xylose residue (132 Da).
+loss_5ecd1a9d2c67d9,ginsenoside,,neutral loss 102,102,,Loss of 102 Da associated with specific sugar side chains.,concept_evidence,chunk_e9f0f1e4e506e37eb32b,candidate,Loss of 102 Da associated with specific sugar side chains.
+loss_63fc1702b69c78,ginsenoside,,neutral loss 42,42,,Loss of acetyl group (42 Da).,concept_evidence,chunk_ba3f16e5321fe134a4a2,candidate,Loss of acetyl group (42 Da).
+loss_88096a66fc9c21,ginsenoside,,neutral loss 86,86,,Loss of malonyl group (86 Da).,concept_evidence,chunk_ba3f16e5321fe134a4a2,candidate,Loss of malonyl group (86 Da).

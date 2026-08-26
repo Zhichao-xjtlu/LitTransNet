@@ -1,0 +1,167 @@
+{
+  "compiler_version": "evidence-graph-reaction-compiler/4.0",
+  "created_utc": "2026-08-02T03:17:56.872044+00:00",
+  "encoding": "utf-8-sig",
+  "registry_artifacts": {
+    "entity_class_memberships.jsonl": {
+      "sha256": "4a2d2c992de7b5dd90698dfa6f9f86b4b54fd4db2d2b27671347aa97637aadef",
+      "size": 1450
+    },
+    "entity_classes.jsonl": {
+      "sha256": "778fb977d276d7fb825aef8a12a87a0455258c2855276f7ea003f0c04512d28b",
+      "size": 379
+    },
+    "entity_forms.jsonl": {
+      "sha256": "45efeb3bbe6c56e40f471dbe20034a54de7c6d70140b9572453352329142025e",
+      "size": 166346
+    },
+    "entity_registry.jsonl": {
+      "sha256": "b8228e5b1264b2f95ed2110900fb12f3ed0f0eac7c0d647ad6696833d85b55e4",
+      "size": 195180
+    },
+    "evidence_inventory.jsonl": {
+      "sha256": "368c626eabbeb88850ac349b19bf2a8135d8d8b3e87dc3d4fce65d2c3dea7b92",
+      "size": 232301
+    },
+    "fragment_evidence.jsonl": {
+      "sha256": "f21ab011dd1764d68d8df746ebf568fc000a9780fd7bcea80deb439b6fb3e17f",
+      "size": 18262023
+    }
+  },
+  "schema_version": "4.0",
+  "tables": {
+    "biosynthetic_component_rules.csv": {
+      "required_columns": [
+        "rule_id",
+        "entity_id",
+        "form_id",
+        "entity_class_id",
+        "entity_scope",
+        "compound_class",
+        "component_type",
+        "component_name",
+        "formula",
+        "exact_mass",
+        "role",
+        "reaction_logic",
+        "delta_mass_to_product",
+        "decarboxy_delta_mass",
+        "evidence_ids",
+        "review_status",
+        "review_note"
+      ],
+      "row_count": 53,
+      "sha256": "5be7d59500523152bcb590aeabc93a8598837a61f1900936d3fb2577edebf8d3"
+    },
+    "compound_rules.csv": {
+      "required_columns": [
+        "rule_id",
+        "entity_id",
+        "entity_origin",
+        "target_origin",
+        "compound_name",
+        "synonyms",
+        "compound_class",
+        "subclass",
+        "formula",
+        "exact_mass",
+        "ion_mode",
+        "adduct",
+        "reported_precursor_mz",
+        "reported_fragments",
+        "reported_neutral_losses",
+        "literature_status",
+        "derivation_id",
+        "evidence_ids",
+        "review_status",
+        "review_note"
+      ],
+      "row_count": 293,
+      "sha256": "93b771952196bc0206eec9072a73a6583d8d7c11ab52a5501e2e54749ec2a7ff"
+    },
+    "diagnostic_fragment_rules.csv": {
+      "required_columns": [
+        "rule_id",
+        "compound_class",
+        "subclass",
+        "fragment_mz",
+        "ion_mode",
+        "fragment_assignment",
+        "diagnostic_origin",
+        "support_compound_count",
+        "support_compound_fraction",
+        "support_rank",
+        "required",
+        "evidence_ids",
+        "review_status",
+        "review_note"
+      ],
+      "row_count": 82,
+      "sha256": "c5fed27a207df41d9df7847901135d992756705f22125a66e95381c85d614552"
+    },
+    "neutral_loss_rules.csv": {
+      "required_columns": [
+        "rule_id",
+        "compound_class",
+        "subclass",
+        "loss_name",
+        "loss_mass",
+        "ion_mode",
+        "interpretation",
+        "required_context",
+        "evidence_ids",
+        "review_status",
+        "review_note"
+      ],
+      "row_count": 17,
+      "sha256": "1b5fdac8115e23a38df8b06648db7e8d0d5655134543510d2a11f8a8cba13915"
+    },
+    "transformation_rules.csv": {
+      "required_columns": [
+        "rule_id",
+        "compound_class",
+        "subclass",
+        "source_entity",
+        "target_entity",
+        "source_entity_id",
+        "target_entity_id",
+        "transformation_name",
+        "evidence_type",
+        "claim_source",
+        "component_name",
+        "component_delta_formula",
+        "relation_evidence_status",
+        "template_support_level",
+        "candidate_policy",
+        "propagation_policy",
+        "reaction_arity",
+        "reactant_entities",
+        "product_entities",
+        "anchor_reactant_index",
+        "network_anchor_role",
+        "resolved_network_anchor_count",
+        "anchor_resolution_stage",
+        "reaction_type",
+        "reaction_operator",
+        "formula_equation",
+        "reactant_form_ids",
+        "product_form_ids",
+        "fragment_evidence_contract",
+        "calculated_delta_mass",
+        "chemical_validation_status",
+        "product_resolution_status",
+        "derivation_id",
+        "delta_mass",
+        "direction",
+        "repeatable",
+        "max_repeat",
+        "required_context",
+        "evidence_ids",
+        "review_status",
+        "review_note"
+      ],
+      "row_count": 77,
+      "sha256": "9ed5883e101c7866f6d067dba9b9f12b4242db3aaf1f5d3bbef9d63cf2657ecf"
+    }
+  }
+}
